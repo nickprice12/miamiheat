@@ -1,0 +1,94 @@
+#banner img {
+    height: 140px;
+    width: 300px;
+    vertical-align: middle;
+}
+
+#banner {
+    color: #000000;
+    font-family: 'Rubik Microbe', cursive;
+    font-size: 3em;
+    padding-left: 40px;
+}
+
+header {
+    display: none;
+}
+
+img {
+    width: 800px;
+}
+
+
+body {
+    margin: 0;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 380px;
+    background-color: #701212;
+    position: fixed;
+    height: 30%;
+    overflow: auto;
+
+}
+
+nav li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav li a.active {
+    background-color: #000000;
+    color: rgb(88, 82, 82);
+}
+
+nav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.content {
+    margin-left:380px;
+    background-color: #373737;
+}
+
+a {
+    text-decoration:dotted;
+    text-decoration-line: underline;
+    color:#ffffff;
+}
+
+.odd {
+    background-color: #611414;
+    
+}
+
+.even {
+    background-color: #555;
+    color: lightgray;
+}
+
+.card {
+    margin-left: 25px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(189, 7, 7, 0.2);
+}
+
+article ul li {
+    list-style-image: url('../gatoricon-xs.png');
+}
+
+.iframe {
+    width: 40px;
+}
